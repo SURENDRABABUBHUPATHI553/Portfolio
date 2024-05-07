@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(1, 1, 7);
+    color: white;
+    font-family: 'poppins', Courier New', Courier, monospace;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(12, 12, 170);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.firstSection{
+    justify-content: space-around;
+    display: flex;
+    margin: 30px 30px;
+}
+
+.leftSection{
+    width: 30%;
+    font-size: 2rem;
+    align-items: center;
+}
+
+
+.rightSection{
+    width: 30%;
+    text-align: center;
+    margin: 0 30px;
+
+}
+
+.rightSection img{
+    display: flex;
+    align-items: center;
+}
+
